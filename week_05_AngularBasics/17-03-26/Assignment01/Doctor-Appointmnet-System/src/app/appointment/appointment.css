@@ -1,0 +1,86 @@
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+}
+
+/* Container */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Textarea height */
+textarea {
+  height: 80px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Summary section */
+hr {
+  margin: 20px 0;
+}
+
+h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Summary text */
+p {
+  max-width: 500px;
+  margin: 5px auto;
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Success / Error message */
+h3:last-of-type {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
