@@ -1,0 +1,90 @@
+<h2>🧾 Checkout</h2>
+
+<form>
+
+<!-- TEXT -->
+<input placeholder="Full Name" [(ngModel)]="user.name" name="name" required>
+
+<input placeholder="Address Line" [(ngModel)]="user.address" name="address">
+
+<!-- EMAIL -->
+<input type="email" placeholder="Email" [(ngModel)]="user.email" name="email">
+
+<!-- NUMBER -->
+<input type="number" placeholder="Phone" [(ngModel)]="user.phone" name="phone">
+<input type="number" placeholder="ZIP Code" [(ngModel)]="user.zip" name="zip">
+
+<!-- RADIO -->
+<p>Gender:</p>
+<label><input type="radio" value="Male" name="gender" [(ngModel)]="user.gender"> Male</label>
+<label><input type="radio" value="Female" name="gender" [(ngModel)]="user.gender"> Female</label>
+
+<p>Delivery Type:</p>
+<label><input type="radio" value="Standard" name="delivery" [(ngModel)]="user.delivery"> Standard</label>
+<label><input type="radio" value="Express" name="delivery" [(ngModel)]="user.delivery"> Express</label>
+
+<!-- CHECKBOX -->
+<br>
+<label><input type="checkbox"> Accept Terms</label>
+<label><input type="checkbox"> Subscribe Offers</label>
+
+<!-- DROPDOWN -->
+<br><br>
+<select [(ngModel)]="user.city" name="city">
+  <option>Jaipur</option>
+  <option>Delhi</option>
+</select>
+
+<select [(ngModel)]="user.state" name="state">
+  <option>Rajasthan</option>
+  <option>Delhi</option>
+</select>
+
+<select [(ngModel)]="user.country" name="country">
+  <option>India</option>
+</select>
+
+<!-- DATE -->
+<br><br>
+<input type="date" [(ngModel)]="user.date" name="date">
+
+<!-- TEXTAREA -->
+<br><br>
+<textarea placeholder="Instructions" [(ngModel)]="user.instructions" name="instructions"></textarea>
+
+<!-- FILE -->
+<br><br>
+<input type="file">
+
+<!-- MULTIPLE ADDRESSES -->
+<h3>📍 Multiple Addresses</h3>
+
+<div *ngFor="let addr of addresses; let i = index">
+  <input [(ngModel)]="addresses[i]" name="addr{{i}}">
+</div>
+
+<button type="button" (click)="addresses.push('')">+ Add Address</button>
+
+<!-- PAYMENT -->
+<h3>💳 Payment</h3>
+
+<label><input type="radio" value="card" name="payment" [(ngModel)]="user.payment"> Credit/Debit Card</label>
+<label><input type="radio" value="upi" name="payment" [(ngModel)]="user.payment"> UPI</label>
+<label><input type="radio" value="cod" name="payment" [(ngModel)]="user.payment"> COD</label>
+
+<!-- CONDITIONAL -->
+<div *ngIf="user.payment === 'card'">
+  <input placeholder="Card Number">
+  <input placeholder="Expiry Date">
+  <input placeholder="CVV">
+</div>
+
+<div *ngIf="user.payment === 'upi'">
+  <input placeholder="UPI ID">
+</div>
+
+<br><br>
+
+<button>Place Order</button>
+
+</form>

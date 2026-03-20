@@ -1,0 +1,27 @@
+<h2>🛍 Products</h2>
+
+<input [(ngModel)]="search" placeholder="Search product..." />
+
+<select [(ngModel)]="category">
+  <option value="">All Categories</option>
+  <option>Electronics</option>
+  <option>Fashion</option>
+</select>
+
+<div *ngFor="let p of filtered" class="card">
+
+  <img [src]="p.image" width="100">
+
+  <h3>{{ p.name }}</h3>
+
+  <p>₹{{ p.price }}</p>
+
+  <p>{{ getStars(p.rating) }}</p>
+
+  <p><b>{{ p.category }}</b></p>
+
+  <input type="number" [(ngModel)]="p.quantity" min="1">
+
+  <button (click)="add.emit(p)">Add to Cart</button>
+
+</div>
