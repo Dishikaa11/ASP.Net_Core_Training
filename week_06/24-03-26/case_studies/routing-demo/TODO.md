@@ -1,0 +1,1 @@
+# Task: Fix product ID not displaying on click&#10;&#10;## Plan Steps:&#10;- [x] Understand issue: Property casing mismatch (productId vs productID)&#10;- [x] Step 1: Edit product-detail.ts to fix template interpolation {{ product.productId }} → {{ product.productID }}&#10;- [x] Step 2: Verify change with ng serve and test navigation&#10;- [x] Step 3: Mark complete
