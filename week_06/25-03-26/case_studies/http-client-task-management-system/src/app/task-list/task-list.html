@@ -1,0 +1,35 @@
+<div class="container">
+
+  <!-- FORM -->
+  <app-task-form (taskAdded)="addTaskToList($event)"></app-task-form>
+
+<header>
+  <h1>My Tasks</h1>
+  <p>Manage your daily tasks professionally</p>
+</header>
+
+<h2>Active Tasks</h2>
+
+  <ul>
+    <li class="task-item" *ngFor="let task of tasks" [class.completed]="task.completed">
+      <label class="task-checkbox">
+        <input type="checkbox" [checked]="task.completed" (change)="toggleStatus(task)" />
+      </label>
+      <input [(ngModel)]="task.title" class="task-title" />
+      <div class="btn-group">
+        <button class="update-btn" (click)="updateTask(task)">
+          Update
+        </button>
+        <button class="delete-btn" (click)="deleteTask(task.id!)">
+          Delete
+        </button>
+      </div>
+    </li>
+  </ul>
+
+  <div *ngIf="tasks.length === 0" class="empty-state">
+    <h3>No tasks yet</h3>
+    <p>Add a task above to get started!</p>
+  </div>
+
+</div>

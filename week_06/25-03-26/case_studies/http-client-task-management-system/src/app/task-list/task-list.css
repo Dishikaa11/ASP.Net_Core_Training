@@ -1,0 +1,162 @@
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(59,130,246,0.2);
+}
+
+header h1 {
+  margin: 0 0 0.25rem 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+header p {
+  margin: 0;
+  color: rgba(255,255,255,0.9);
+  font-size: 1.1rem;
+}
+
+h2 {
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 2rem 0 1.5rem 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.task-item {
+  background: var(--bg-card);
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: var(--transition);
+  animation: fadeInUp 0.3s ease-out;
+}
+
+.task-item:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.task-item.completed {
+  opacity: 0.7;
+}
+
+.task-item.completed input {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.task-checkbox {
+  flex-shrink: 0;
+}
+
+.task-checkbox input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.task-title {
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.btn-group button {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #6b7280;
+}
+
+.empty-state h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  color: #374151;
+}
+
+.task-item button {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.update-btn {
+  background: #6b7280;
+  color: white;
+}
+
+.update-btn:hover {
+  background: #4b5563;
+}
+
+.complete-btn {
+  background: var(--success);
+  color: white;
+}
+
+.complete-btn:hover {
+  background: #059669;
+}
+
+.delete-btn {
+  background: var(--danger);
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .task-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .task-item button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}

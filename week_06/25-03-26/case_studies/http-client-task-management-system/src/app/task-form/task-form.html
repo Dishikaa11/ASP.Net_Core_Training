@@ -1,0 +1,17 @@
+<div class="form-container">
+  <h2>Add Task</h2>
+
+  <input
+    type="text"
+    [(ngModel)]="title"
+    placeholder="Enter task title"
+  />
+
+  <label>
+    <input type="checkbox" [(ngModel)]="completed" />
+    Completed
+  </label>
+
+  <button (click)="addTask()">Add Task</button>
+</div>
+
