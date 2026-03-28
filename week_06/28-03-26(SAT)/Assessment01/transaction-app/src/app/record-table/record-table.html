@@ -1,0 +1,62 @@
+<div class="container">
+
+  <!-- ADD TRANSACTION FORM -->
+  <div class="form-box">
+
+    <input type="date" [(ngModel)]="newTransaction.date" />
+
+    <input type="text" placeholder="Description"
+           [(ngModel)]="newTransaction.description" />
+
+    <select [(ngModel)]="newTransaction.type">
+      <option [value]="0">Credit</option>
+      <option [value]="1">Debit</option>
+    </select>
+
+    <input type="number" placeholder="Amount"
+           [(ngModel)]="newTransaction.amount" />
+
+    <input type="text" placeholder="Balance"
+           [(ngModel)]="newTransaction.balance" />
+
+    <button (click)="addTransaction()">Add</button>
+
+  </div>
+
+  <!-- FILTER BOX -->
+  <div class="filter-box">
+    <input type="date" [(ngModel)]="selectedDate" />
+    <button (click)="filterByDate()">Filter</button>
+    <button class="reset-btn" (click)="resetFilter()">Reset</button>
+  </div>
+
+  <!-- TABLE -->
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Type</th>
+        <th (click)="sortByAmount()" style="cursor:pointer">
+          Amount ($)
+        </th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let t of filteredTransactions">
+        <td>{{ t.date | date:'yyyy-MM-dd' }}</td>
+        <td>{{ t.description }}</td>
+
+        <td [ngClass]="t.type === 0 ? 'credit' : 'debit'">
+          {{ getType(t.type) }}
+        </td>
+
+        <td>{{ t.amount }}</td>
+        <td>{{ t.balance }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

@@ -1,0 +1,118 @@
+/* 🌍 Page Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
+
+/* 🔲 Container */
+.container {
+  width: 85%;
+  margin: 40px auto;
+}
+
+/* 🔍 Filter Section */
+.filter-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="date"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ✅ Button */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* 📊 Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 🧾 Header */
+thead {
+  background-color: #f8f9fa;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+}
+
+/* 🔽 Sort hover */
+th:hover {
+  background-color: #e9ecef;
+}
+
+/* 📄 Rows */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* 🪄 Hover Effect */
+tr:hover {
+  background-color: #f1f3f5;
+}
+
+/* 💰 Credit / Debit Colors */
+.credit {
+  color: green;
+  font-weight: 500;
+}
+
+.debit {
+  color: red;
+  font-weight: 500;
+}
+
+.reset-btn {
+  background-color: #dc3545;
+}
+
+.reset-btn:hover {
+  background-color: #c82333;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.form-box input,
+.form-box select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-box button {
+  background-color: #007bff;
+}
+
+.form-box button:hover {
+  background-color: #0056b3;
+}
