@@ -1,0 +1,98 @@
+/* Full Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.app {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Product & Cart Items */
+.product,
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Buttons Common */
+button {
+  border: none;
+  padding: 6px 12px;
+  margin-left: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/* Add Button */
+.product button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
+
+/* Increase Button */
+.cart-item button:nth-child(2) {
+  background-color: #2196F3;
+  color: white;
+}
+
+.cart-item button:nth-child(2):hover {
+  background-color: #1976d2;
+}
+
+/* Decrease Button */
+.cart-item button:nth-child(3) {
+  background-color: #ff9800;
+  color: white;
+}
+
+.cart-item button:nth-child(3):hover {
+  background-color: #e68900;
+}
+
+/* Delete Button */
+.cart-item button:nth-child(4) {
+  background-color: #f44336;
+  color: white;
+}
+
+.cart-item button:nth-child(4):hover {
+  background-color: #d32f2f;
+}
+
+/* Total */
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
