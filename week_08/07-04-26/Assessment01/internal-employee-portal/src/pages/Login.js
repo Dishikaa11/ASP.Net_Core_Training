@@ -12,7 +12,7 @@ export default function Login() {
       <div className="login-container">
         <div className="login-card">
 
-          <h1 className="title">🚀 Welcome Back</h1>
+          <h1 className="title"> Welcome Back</h1>
           <p className="subtitle">Employee Portal Login</p>
 
           <div className="input-group">

@@ -9,7 +9,7 @@ export default function Analytics() {
   return (
     <>
       <div className="card">
-        <h2>📊 Analytics Dashboard</h2>
+        <h2> Analytics Dashboard</h2>
 
         <div className="stats">
           <div className="box">

@@ -12,7 +12,7 @@ export default function Navbar() {
     <>
       {/* ===== JSX ===== */}
       <nav className="navbar">
-        <div className="logo">⚡ Employee Portal</div>
+        <div className="logo"> Employee Portal</div>
 
         <div className="nav-right">
           <span className="user">👤 {user?.name}</span>

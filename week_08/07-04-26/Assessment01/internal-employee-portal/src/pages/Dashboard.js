@@ -16,7 +16,7 @@ export default function Dashboard() {
         
         {/* SIDEBAR */}
         <div className="sidebar">
-          <h2>⚡ Portal</h2>
+          <h2> Portal</h2>
 
           <button onClick={() => setActiveTab("dashboard")}>🏠 Dashboard</button>
           <button onClick={() => setActiveTab("analytics")}>📊 Analytics</button>
