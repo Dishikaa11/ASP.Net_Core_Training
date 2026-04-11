@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|d:\\capgemini\\asp.net_core_training\\week_08\\10-04-26\\assessment01\\clothesstore\\clothesstore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|solutionrelative:clothesstore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|d:\\capgemini\\asp.net_core_training\\week_08\\10-04-26\\assessment01\\clothesstore\\clothesstore\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|solutionrelative:clothesstore\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|d:\\capgemini\\asp.net_core_training\\week_08\\10-04-26\\assessment01\\clothesstore\\clothesstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|solutionrelative:clothesstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|d:\\capgemini\\asp.net_core_training\\week_08\\10-04-26\\assessment01\\clothesstore\\clothesstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E8044D7-5CBF-4730-96AD-D130DFE8D2EB}|ClothesStore\\ClothesStore.csproj|solutionrelative:clothesstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Program.cs",
+              "RelativeDocumentMoniker": "ClothesStore\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Program.cs",
+              "RelativeToolTip": "ClothesStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:54:13.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ClothesStore\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ClothesStore\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:59:39.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "ClothesStore\\DTOs\\ProductDTO.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\DTOs\\ProductDTO.cs*",
+              "RelativeToolTip": "ClothesStore\\DTOs\\ProductDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:56:02.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Model\\ProductModel.cs",
+              "RelativeDocumentMoniker": "ClothesStore\\Model\\ProductModel.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_08\\10-04-26\\Assessment01\\ClothesStore\\ClothesStore\\Model\\ProductModel.cs*",
+              "RelativeToolTip": "ClothesStore\\Model\\ProductModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:51:49.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
