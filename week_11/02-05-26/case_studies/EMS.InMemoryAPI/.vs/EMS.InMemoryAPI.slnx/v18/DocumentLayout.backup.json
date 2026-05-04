@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|d:\\capgemini\\asp.net_core_training\\week_11\\02-05-26\\case_studies\\ems.inmemoryapi\\ems.inmemoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|solutionrelative:ems.inmemoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|d:\\capgemini\\asp.net_core_training\\week_11\\02-05-26\\case_studies\\ems.inmemoryapi\\ems.inmemoryapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|solutionrelative:ems.inmemoryapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|d:\\capgemini\\asp.net_core_training\\week_11\\02-05-26\\case_studies\\ems.inmemoryapi\\ems.inmemoryapi\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|solutionrelative:ems.inmemoryapi\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|d:\\capgemini\\asp.net_core_training\\week_11\\02-05-26\\case_studies\\ems.inmemoryapi\\ems.inmemoryapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE993100-D198-48CD-9FF8-A52E2C33CA2D}|EMS.InMemoryAPI\\EMS.InMemoryAPI.csproj|solutionrelative:ems.inmemoryapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EMS.InMemoryAPI\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Program.cs",
+              "RelativeToolTip": "EMS.InMemoryAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:36:31.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:26:39.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:12:46.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EMS.InMemoryAPI\\Models\\Employee.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\02-05-26\\case_studies\\EMS.InMemoryAPI\\EMS.InMemoryAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "EMS.InMemoryAPI\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:08:45.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

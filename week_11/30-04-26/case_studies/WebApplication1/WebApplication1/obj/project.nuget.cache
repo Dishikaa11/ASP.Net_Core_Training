@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hy764VqXZbk=",
+  "success": true,
+  "projectFilePath": "D:\\Capgemini\\ASP.NET_Core_Training\\week_11\\30-04-26\\case_studies\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dishi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
