@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment07\\ProductPriceAnalyzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96239464-381E-43E9-A4F8-CE692841B9AC}|ProductPriceAnalyzer\\ProductPriceAnalyzer.csproj|d:\\capgemini\\asp.net_core_training\\week_12\\07-05-26\\assessment07\\productpriceanalyzer\\productpriceanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96239464-381E-43E9-A4F8-CE692841B9AC}|ProductPriceAnalyzer\\ProductPriceAnalyzer.csproj|solutionrelative:productpriceanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment07\\ProductPriceAnalyzer\\ProductPriceAnalyzer\\Program.cs",
+              "RelativeDocumentMoniker": "ProductPriceAnalyzer\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment07\\ProductPriceAnalyzer\\ProductPriceAnalyzer\\Program.cs",
+              "RelativeToolTip": "ProductPriceAnalyzer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T08:51:59.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

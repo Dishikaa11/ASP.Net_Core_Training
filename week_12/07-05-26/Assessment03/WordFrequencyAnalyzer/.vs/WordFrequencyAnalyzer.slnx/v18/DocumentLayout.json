@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment03\\WordFrequencyAnalyzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57ACD8C8-2C1D-457C-8DDE-7F27CB8CCA9B}|WordFrequencyAnalyzer\\WordFrequencyAnalyzer.csproj|d:\\capgemini\\asp.net_core_training\\week_12\\07-05-26\\assessment03\\wordfrequencyanalyzer\\wordfrequencyanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57ACD8C8-2C1D-457C-8DDE-7F27CB8CCA9B}|WordFrequencyAnalyzer\\WordFrequencyAnalyzer.csproj|solutionrelative:wordfrequencyanalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment03\\WordFrequencyAnalyzer\\WordFrequencyAnalyzer\\Program.cs",
+              "RelativeDocumentMoniker": "WordFrequencyAnalyzer\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\ASP.NET_Core_Training\\week_12\\07-05-26\\Assessment03\\WordFrequencyAnalyzer\\WordFrequencyAnalyzer\\Program.cs",
+              "RelativeToolTip": "WordFrequencyAnalyzer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T08:43:06.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
