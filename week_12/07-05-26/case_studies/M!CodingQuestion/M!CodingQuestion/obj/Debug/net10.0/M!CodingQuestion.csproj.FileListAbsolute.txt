@@ -1,0 +1,15 @@
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\bin\Debug\net10.0\M!CodingQuestion.exe
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\bin\Debug\net10.0\M!CodingQuestion.deps.json
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\bin\Debug\net10.0\M!CodingQuestion.runtimeconfig.json
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\bin\Debug\net10.0\M!CodingQuestion.dll
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\bin\Debug\net10.0\M!CodingQuestion.pdb
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.AssemblyInfoInputs.cache
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.AssemblyInfo.cs
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.csproj.CoreCompileInputs.cache
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.sourcelink.json
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.dll
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\refint\M!CodingQuestion.dll
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.pdb
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\M!CodingQuestion.genruntimeconfig.cache
+D:\Capgemini\ASP.NET_Core_Training\week_12\07-05-26\case_studies\M!CodingQuestion\M!CodingQuestion\obj\Debug\net10.0\ref\M!CodingQuestion.dll
