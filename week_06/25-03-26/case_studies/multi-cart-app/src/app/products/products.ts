@@ -11,6 +11,11 @@ import { CartService } from '../cart.service';
 })
 export class ProductService {
 
+  getCartItems() {
+    return this.cartService.getItems();
+  }
+
+
   products = [
     { id: 1, name: 'Laptop', price: 800 },
     { id: 2, name: 'Smartphone', price: 500 },
